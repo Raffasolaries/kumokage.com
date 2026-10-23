@@ -28,7 +28,7 @@ npx wrangler dev   # out/ served through the Worker on :8787, as in production
 
 | Setting | Where | Value |
 |---|---|---|
-| `CLOUDFLARE_API_TOKEN` | environment `production` secret | Token with *Workers Scripts: Edit* on the account and DNS edit on the `kumokage.com` zone (custom domains). It's currently the devplatform-infra token; replace it with a dedicated, narrower token when convenient. |
+| `CLOUDFLARE_API_TOKEN` | environment `production` secret | Dedicated token *kumokage-site deploy (GitHub Actions)*, created 23 Oct 2026, with exactly two permissions: *Workers Scripts: Edit* on the account and *Workers Routes: Edit* on the `kumokage.com` zone. No DNS permission: custom domains manage their own DNS records. |
 | `CLOUDFLARE_ACCOUNT_ID` | environment `production` variable | `233c1afe9c1ae00e108d868eb9e0d69d` |
 
 The Worker owns the custom domains `kumokage.com` and `www.kumokage.com`; wrangler creates the DNS records and certificates.
