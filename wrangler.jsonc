@@ -1,0 +1,20 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  // Same Worker that served kumokage.com before; deployed by .github/workflows/site.yml.
+  "name": "kumokage-site",
+  "main": "worker/index.mjs",
+  "compatibility_date": "2026-10-23",
+  "assets": {
+    "directory": "./out",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page",
+    "run_worker_first": true
+  },
+  "routes": [
+    { "pattern": "kumokage.com", "custom_domain": true },
+    { "pattern": "www.kumokage.com", "custom_domain": true }
+  ],
+  "workers_dev": false,
+  "preview_urls": false
+}

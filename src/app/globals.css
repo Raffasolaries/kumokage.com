@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+/* Kumokage brand: Washi paper, Sumi ink, Kage slate, Aizome indigo (brand guidelines v2). */
+@theme inline {
+  --color-washi: #f6f4ef;
+  --color-paper: #fbfaf7;
+  --color-panel: #eeebe4;
+  --color-rule: #dcd8ce;
+  --color-sumi: #212832;
+  --color-ink: #2e3a46;
+  --color-slate: #4e5d6c;
+  --color-aizome: #2f5d8a;
+  --color-aizome-dark: #234a6f;
+  --font-sans: var(--font-plex-sans), "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: var(--font-plex-mono), "IBM Plex Mono", ui-monospace, "SFMono-Regular", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  background: var(--color-washi);
+  color: var(--color-sumi);
+}
+
+.eyebrow {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--color-slate);
+}
+
+.rule-accent {
+  display: block;
+  width: 28px;
+  height: 2px;
+  background: var(--color-aizome);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-aizome);
+  outline-offset: 3px;
+}
+
+::selection {
+  background: rgba(47, 93, 138, 0.18);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

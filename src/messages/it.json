@@ -1,0 +1,217 @@
+{
+  "metadata": {
+    "title": "Kumokage GmbH · Piattaforme cloud sicure e resilienti",
+    "template": "%s · Kumokage GmbH",
+    "description": "Società di consulenza con sede a Zurigo per piattaforme cloud sicure e resilienti, con focus su AWS: landing zone, sicurezza delle informazioni, piattaforme Kubernetes, disaster recovery e IA governata su Amazon Bedrock."
+  },
+  "seo": {
+    "home": {
+      "title": "Kumokage GmbH · Piattaforme cloud sicure e resilienti da Zurigo",
+      "description": "Kumokage GmbH progetta, protegge e gestisce piattaforme cloud con focus su AWS: landing zone e governance, sicurezza delle informazioni e compliance, piattaforme Kubernetes, disaster recovery multi-regione e IA governata. Guidata da un principal architect, da Zurigo."
+    },
+    "legal": {
+      "title": "Note legali e privacy del sito",
+      "description": "Note legali di Kumokage GmbH, Zurigo (IDI CHE-257.027.078), e come questo sito tratta i dati personali."
+    }
+  },
+  "nav": {
+    "services": "Servizi",
+    "work": "Lavori",
+    "founder": "Fondatore",
+    "contact": "Contatti",
+    "main": "Navigazione principale",
+    "skip": "Vai al contenuto",
+    "language": "Lingua",
+    "home": "Kumokage GmbH, home"
+  },
+  "hero": {
+    "eyebrow": "Kumokage GmbH · Zurigo, Svizzera",
+    "title": "Piattaforme cloud sicure e resilienti.",
+    "lead": "Architettura cloud con focus su AWS, sicurezza delle informazioni e sistemi di IA: progettati, realizzati e collaudati dall'architetto che ne risponde.",
+    "ctaContact": "Parlate con l'architetto",
+    "ctaPdf": "Capability statement (PDF, in inglese)",
+    "markAlt": "Marchio Kumokage: una nuvola e la sua ombra"
+  },
+  "services": {
+    "eyebrow": "Cosa facciamo",
+    "title": "Ingegneria cloud guidata da un principal architect, con focus su AWS.",
+    "items": {
+      "landing": {
+        "title": "Landing zone e governance",
+        "text": "Fondamenta AWS multi-account con Control Tower, Organizations e SCP, IAM Identity Center federato con Microsoft Entra ID o Google Workspace, guardrail come codice in Terraform o CDK."
+      },
+      "security": {
+        "title": "Sicurezza delle informazioni e compliance",
+        "text": "Perimetri di rete con Transit Gateway, Network Firewall, CloudFront, WAF e Shield Advanced; remediation dei risultati di Security Hub; KMS e Secrets Manager; archivi immutabili su S3 Object Lock; autenticazione delle e-mail; incident response."
+      },
+      "platforms": {
+        "title": "Piattaforme e resilienza",
+        "text": "Piattaforme EKS ed ECS in produzione con GitOps e Karpenter, livelli dati con Aurora e Valkey, disaster recovery multi-regione progettato come codice e validato con failover reali."
+      },
+      "ai": {
+        "title": "Sistemi di IA",
+        "text": "Piattaforme agentiche governate su Amazon Bedrock AgentCore: RAG con fonti citate, agenti che revisionano le merge request e raccomandano mentre le persone modificano la produzione, rilascio tramite OIDC senza credenziali statiche."
+      },
+      "leadership": {
+        "title": "Leadership e formazione",
+        "text": "Incarichi di principal architect frazionale, direzione di progetto e workshop pratici per team di ingegneria."
+      }
+    }
+  },
+  "glance": {
+    "eyebrow": "In sintesi",
+    "principalLabel": "Responsabile",
+    "principal": "Raffaele Sollecito, fondatore e gerente",
+    "companyLabel": "Società",
+    "company": "Kumokage GmbH, Zurigo · IDI CHE-257.027.078 · fondata nel 2026",
+    "platformsLabel": "Piattaforme cloud",
+    "platforms": "Oggi AWS, con identità federate con Microsoft Entra ID e Google Workspace. Microsoft Azure, Google Cloud e Alibaba Cloud in programma.",
+    "languagesLabel": "Lingue di lavoro",
+    "languages": "Inglese, italiano",
+    "servingLabel": "Mercati",
+    "serving": "Svizzera ed Europa"
+  },
+  "record": {
+    "eyebrow": "Risultati del nostro fondatore, 2023–2026",
+    "items": {
+      "zones": {
+        "value": "7",
+        "text": "zone di produzione di giochi live migrate da Cloudflare a CloudFront, WAFv2 e Shield Advanced, entro il budget"
+      },
+      "accounts": {
+        "value": "11",
+        "text": "account AWS con ruoli di deploy OIDC senza credenziali statiche per una piattaforma agentica per sviluppatori"
+      },
+      "archive": {
+        "value": "≈51%",
+        "text": "di costi di licenza in meno grazie a un archivio e-mail di compliance immutabile a 7 anni (circa 12’000 USD l'anno)"
+      },
+      "domains": {
+        "value": "10",
+        "text": "domini e-mail protetti con SPF, DKIM e DMARC dopo un attacco di brand impersonation"
+      }
+    },
+    "drill": "Disaster recovery multi-regione per EKS, Aurora e Valkey realizzato come un unico workflow parametrico e validato con un failover reale."
+  },
+  "work": {
+    "eyebrow": "Incarichi selezionati guidati dal nostro fondatore",
+    "note": "I clienti attuali sono descritti, non nominati. I lavori precedenti a ottobre 2026 sono stati svolti tramite Aspect Solutions Unipessoal Lda o come dipendente o consulente delle società indicate.",
+    "items": {
+      "gaming": {
+        "period": "mar 2026 – oggi",
+        "title": "Platform engineering AWS, migrazione edge e disaster recovery",
+        "client": "Publisher globale di giochi mobile e web · tramite un partner di consulenza",
+        "text": "Responsabile della piattaforma Terraform dietro tre giochi live (sei cluster EKS e undici cluster Aurora). Sette zone di produzione migrate da Cloudflare a CloudFront, Route 53, ACM, WAFv2 e Shield Advanced entro il budget, incluso il tuning di Origin Shield con un risparmio stimato di circa 6’400 USD al mese. Un'unica piattaforma DR gestita con Terraform per EKS, Aurora, Valkey e host CI, validata con un failover reale; AWS Backup multi-regione con vault lock; aggiornamenti di Amazon MQ; un workshop CloudFront/WAF di 12 esercizi per 12 ingegneri."
+      },
+      "iot": {
+        "period": "lug 2025 – oggi",
+        "title": "Piattaforma interna per sviluppatori AI-native",
+        "client": "Azienda globale di semiconduttori e tecnologie IoT · tramite un partner di staffing britannico",
+        "text": "Architettura principale e realizzazione hands-on di una piattaforma di IA generativa per sviluppatori in produzione su Amazon Bedrock AgentCore: orchestrazione multi-agente, API serverless e servizi event-driven. Rilasci DEV/TEST/PROD con Python CDK e GitLab OIDC su undici account AWS; federazione Cognito ed Entra ID; IAM a privilegio minimo e remediation di sicurezza; governance su 23 repository e 7 applicazioni generate; modernizzazione da SVN a GitLab."
+      },
+      "fintech": {
+        "period": "ago 2023 – oggi",
+        "title": "Piattaforma cloud, archivio di compliance e security operations",
+        "client": "Gruppo fintech regolamentato FCA",
+        "text": "Landing zone Control Tower con Security Hub e SSO di Google Workspace in IAM Identity Center; CI/CD GitLab OIDC; microservizi ECS per dati di mercato in tempo reale; AppSync GraphQL; Managed Grafana. Archivio e-mail immutabile a 7 anni su S3 Object Lock (218’000 messaggi di 97 identità inattive) che ha ridotto i costi di licenza di circa il 51%. Guidata la risposta a un attacco P1 di brand impersonation, rafforzati SPF/DKIM/DMARC su dieci domini, migrazione da Microsoft 365 a Google Workspace."
+      },
+      "reevo": {
+        "period": "gen 2024 – dic 2025",
+        "title": "Landing zone e Kubernetes multi-tenant",
+        "client": "Operatore di infrastrutture del gas (infrastruttura critica) · tramite ReeVo Cloud & Cyber Security",
+        "text": "Control Tower, Security Hub e IAM Identity Center federato con Entra ID; Transit Gateway hub-and-spoke con Direct Connect e failover VPN; Network Firewall con Suricata; EKS multi-tenant con GitOps ArgoCD e Karpenter; distribuzione privata da NLB ad API Gateway a CloudFront con WAF, Cognito e KMS."
+      },
+      "institution": {
+        "period": "feb 2023 – gen 2024",
+        "title": "Landing zone enterprise e backup dei dati",
+        "client": "Istituzione europea (tramite PwC Luxembourg) · Volkswagen Digital Solutions",
+        "text": "Strategia di backup a livello di istituzione su AWS Backup secondo la AWS Data Protection Reference Architecture; liste di minacce del firewall automatizzate; remediation delle risorse esposte dai risultati di Security Hub e Config; account sicuri nella landing zone di gruppo conforme a MAN, con provisioning tramite Step Functions."
+      }
+    }
+  },
+  "engage": {
+    "eyebrow": "Come collaboriamo",
+    "items": {
+      "assess": { "title": "Valutare", "text": "una revisione a prezzo fisso di sicurezza, landing zone o preparazione al DR, con un piano prioritizzato." },
+      "build": { "title": "Realizzare", "text": "consegne a perimetro definito: landing zone, migrazioni, DR, CI/CD o piattaforme di IA." },
+      "run": { "title": "Gestire", "text": "un retainer mensile di architettura: un architetto responsabile per il vostro ambiente AWS." },
+      "workshops": { "title": "Workshop", "text": "sessioni pratiche per team di ingegneria." }
+    }
+  },
+  "how": {
+    "eyebrow": "Come lavoriamo",
+    "items": {
+      "code": "Tutto come codice (Terraform, CDK), con peer review e piani verificati.",
+      "change": "Modifiche tramite il vostro change management.",
+      "privilege": "Privilegio minimo e nessuna credenziale statica, di default.",
+      "resilience": "Resilienza dimostrata con esercitazioni, non data per scontata.",
+      "docs": "Documentazione e trasferimento di conoscenze inclusi."
+    }
+  },
+  "founder": {
+    "eyebrow": "Fondatore",
+    "name": "Raffaele Sollecito",
+    "role": "Fondatore e gerente · Principal Cloud Solutions Architect",
+    "bio": "Raffaele guida ogni incarico di Kumokage come architetto responsabile. Ha più di dieci anni di esperienza nell'ingegneria del software, di cui sette su AWS: come principal architect indipendente, come cloud architect per un'istituzione europea tramite PwC Luxembourg, come cloud solutions architect in Volkswagen Digital Solutions, come solutions architect in ITnet e come AWS DevOps engineer in Tantosvago.",
+    "certsTitle": "Certificazioni AWS",
+    "rolesTitle": "Ruoli nei programmi AWS",
+    "smeNote": "contribuisce allo sviluppo degli esami di certificazione AWS",
+    "verify": "Tutto verificabile su Credly",
+    "linkedin": "LinkedIn",
+    "website": "Sito personale",
+    "credly": "Credly"
+  },
+  "name": {
+    "eyebrow": "Il nome",
+    "text": "雲 kumo è la nuvola, 影 kage la sua ombra. Infrastruttura potente, gestione silenziosa."
+  },
+  "contact": {
+    "eyebrow": "Contatti",
+    "title": "Parlate con l'architetto, non con un team di vendita.",
+    "text": "Raccontateci del vostro ambiente AWS e di cosa deve restare disponibile. Vi risponde l'architetto che farebbe il lavoro.",
+    "email": "E-mail",
+    "linkedin": "Kumokage GmbH su LinkedIn",
+    "pdf": "Capability statement (PDF, 2 pagine, in inglese)",
+    "languages": "Lingue di lavoro: inglese e italiano.",
+    "serving": "Clienti in Svizzera e in tutta Europa."
+  },
+  "footer": {
+    "tagline": "Piattaforme cloud sicure e resilienti.",
+    "legal": "Note legali",
+    "privacy": "Privacy",
+    "mcpPrivacy": "Informativa privacy Workspace MCP",
+    "mcp": "Workspace MCP Servers",
+    "linkedin": "LinkedIn",
+    "rights": "Tutti i diritti riservati."
+  },
+  "legal": {
+    "eyebrow": "Note legali",
+    "title": "Note legali",
+    "companyLabel": "Società",
+    "legalForm": "Società a garanzia limitata (Sagl/GmbH) di diritto svizzero",
+    "officeLabel": "Sede e indirizzo",
+    "country": "Svizzera",
+    "directorLabel": "Gerente",
+    "registerLabel": "Registro di commercio",
+    "register": "Registro di commercio del Cantone di Zurigo",
+    "uidLabel": "Numero d'identificazione delle imprese (IDI)",
+    "extract": "Estratto del registro di commercio",
+    "contactLabel": "Contatto",
+    "liabilityTitle": "Responsabilità",
+    "liability": "Facciamo attenzione che le informazioni su questo sito siano corrette e aggiornate, ma non possiamo garantirlo. I link ad altri siti sono forniti a titolo informativo; dei loro contenuti rispondono i rispettivi gestori.",
+    "copyrightTitle": "Diritto d'autore",
+    "copyright": "Testi, logo e immagini di questo sito appartengono a Kumokage GmbH, salvo diversa indicazione.",
+    "privacyTitle": "Privacy su questo sito",
+    "privacy1": "Questo sito non imposta cookie, non usa strumenti di analisi o di tracciamento e non carica nulla da terze parti.",
+    "privacy2": "È ospitato su Cloudflare, che tratta dati tecnici delle richieste, come gli indirizzi IP, per distribuire il sito e proteggerlo dagli attacchi, e può trattarli fuori dalla Svizzera, anche negli Stati Uniti.",
+    "privacy3": "Se ci scrivete un'e-mail, usiamo il messaggio e i vostri dati di contatto solo per rispondere e, se collaboriamo, per svolgere l'incarico. La nostra posta elettronica è gestita con Google Workspace.",
+    "privacy4": "Titolare del trattamento è Kumokage GmbH, all'indirizzo indicato sopra. Potete chiedere in ogni momento l'accesso, la rettifica o la cancellazione dei vostri dati personali.",
+    "cloudflarePolicy": "Informativa privacy di Cloudflare",
+    "mcpTitle": "Workspace MCP Servers",
+    "mcp": "Il nostro strumento privato Workspace MCP Servers ha una propria informativa privacy (in inglese).",
+    "updated": "Ultimo aggiornamento: 23 ottobre 2026"
+  },
+  "common": {
+    "english": "inglese"
+  }
+}

@@ -1,0 +1,30 @@
+# Kumokage GmbH
+
+> Zürich-based consultancy that designs, secures and runs cloud platforms for companies whose systems have to stay up, with a focus on AWS. Every engagement is led by a principal architect: the founder, Raffaele Sollecito. Site in English (/en), German (/de) and Italian (/it).
+
+## Company
+- Legal name: Kumokage GmbH (Kumokage Sàrl, Kumokage Sagl, Kumokage LLC), limited liability company under Swiss law, founded 2026.
+- Registered office: c/o Enterprise Treuhand Partners GmbH, Schifflände 26, 8001 Zürich, Switzerland.
+- UID: CHE-257.027.078. Commercial register of the Canton of Zürich: CH-020.4.093.816-5.
+- Managing director: Raffaele Sollecito.
+- Contact: info@kumokage.com, raffaele.sollecito@kumokage.com.
+- Working languages: English and Italian. Serving Switzerland and Europe.
+
+## What Kumokage does
+- Landing zones and governance on AWS (Control Tower, Organizations, SCPs, IAM Identity Center with Microsoft Entra ID or Google Workspace), as code.
+- Information security and compliance: network and edge perimeters, Security Hub remediation, immutable S3 Object Lock archives, incident response.
+- Platforms and resilience: EKS and ECS platforms with GitOps, multi-region disaster recovery validated in live failover drills.
+- AI systems: governed agentic platforms on Amazon Bedrock AgentCore, delivered without static credentials.
+- Fractional principal-architect mandates, project leadership and hands-on workshops.
+- Cloud platforms: AWS today; Microsoft Azure, Google Cloud and Alibaba Cloud are planned, not yet offered.
+
+## Founder
+- Raffaele Sollecito: AWS Certified Solutions Architect – Professional, AWS Certified Security – Specialty, AWS Certified Solutions Architect – Associate, AWS Certified Cloud Practitioner; AWS Certification Subject Matter Expert – Associate. Verify at https://www.credly.com/users/raffasolaries
+- Personal site: https://raffaelesollecito.org · LinkedIn: https://www.linkedin.com/in/raffasolaries/
+
+## Pages
+- Home: https://kumokage.com/en (German: /de, Italian: /it)
+- Legal notice and website privacy: https://kumokage.com/en/legal
+- Capability statement (PDF, English): https://kumokage.com/Kumokage-Capability-Statement.pdf
+- Workspace MCP Servers (private tool): https://kumokage.com/workspace-mcp · privacy policy: https://kumokage.com/privacy
+- LinkedIn: https://www.linkedin.com/company/kumokage/
