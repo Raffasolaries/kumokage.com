@@ -4,7 +4,7 @@ Website of Kumokage GmbH, Zürich: <https://kumokage.com>.
 
 ## Stack
 
-- Next.js 16 static export in English, German and Italian (`next-intl`), Tailwind CSS 4, IBM Plex self-hosted at build time. The site loads nothing from third parties.
+- Next.js 16 static export in English, German and Italian (`next-intl`), Tailwind CSS 4, IBM Plex from the Fontsource npm packages through `next/font/local`: neither the build nor visitors contact Google Fonts. The site loads nothing from third parties.
 - Served by the Cloudflare Worker `kumokage-site` with static assets (`wrangler.jsonc`). The Worker in `worker/` runs before the assets and adds what static files can't:
   - `www.kumokage.com/*` → 301 to `https://kumokage.com/*`
   - `/` → 302 to `/en`, `/de` or `/it`, picked from `Accept-Language`
